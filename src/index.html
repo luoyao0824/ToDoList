@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>a website for arrange tasks</title>
+	<link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/master-page.css" />
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+<!-- ==== START MASTHEAD ==== -->
+<div class="page">
+
+<header role="banner" class="masthead">
+	<input 
+		type="image" 
+		src="img/create_task.svg" 
+		class="create-task" />
+	<input 
+		type="image" 
+		src="img/person.svg" 
+		class="user" />
+	<!-- <ul class="user">
+		<li><a href="http://www.facebook.com">f</a></li>
+	</ul> -->
+</header>
+
+<div class="overlay" id="overlay"></div>
+<div class="popup">
+	<form>
+		<label for="new-task">New task</label>
+		<input type="text" id="new-task" name="new-task">
+		<button type="submit" id="add_btn">Add</button>
+		<button type="button", id="close_btn">Close</button>
+	</form>
+</div>
+
+<div class="sidebar-border">
+
+<div class="sidebar-1">
+	<h2 class="sidebar-title">Not-Started</h2>
+	<ul>
+
+	</ul>
+</div>
+
+<div class="sidebar-2">		
+	<h2 class="sidebar-title">Underway</h2>
+	<ul>
+
+	</ul>
+</div>
+
+<div class="sidebar-3">		
+	<h2 class="sidebar-title">Completed</h2>
+	<ul>
+
+	</ul>
+</div>
+
+</div>
+
+<!-- ==== START FOOTER ==== -->
+<footer role="contentinfo">
+	<p class="copyright"><small>&copy; Copyright 2023 htmlcssvqs.com. All rights reserved.</small></p>
+</footer>
+<!-- end footer -->
+</div>
+
+</body>
+</html>

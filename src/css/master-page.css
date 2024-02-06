@@ -1,0 +1,160 @@
+/* WEB ICON FONT
+  (the social icons that appear
+  in the upper-right corner)
+------------------------------------------ */
+@font-face {
+    font-family: 'Social Icons';
+    src: url("font/socialico-webfont.eot");
+    src: url("font/socialico-webfont.eot?#iefix") format("embedded-opentype"), 
+          url("font/socialico-webfont.woff") format("woff"), 
+          url("font/socialico-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    color: #1162a4;
+    text-decoration: none;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font: 100% sans-serif;
+    background-image: url(../img/backgroud3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page {
+    max-width: 114.29em;
+    margin: 0 auto;
+}
+
+.masthead {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: rgba(137, 135, 136, 0.5);
+    -webkit-border-radius: 1.43em;
+    border-radius: 1.43em;
+    box-shadow: 0.36em 0.36em 0.36em #dcdbdb;
+}
+
+.create-task {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: 1em;
+}
+
+/* 遮罩层样式 */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none; /* 默认隐藏 */
+}
+
+/* 弹窗样式 */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none; /* 默认隐藏 */
+}
+
+.user {
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+    right: 1em; 
+}
+  
+/* .user {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.user li {
+    display: inline;
+    margin-left: -1px;
+}
+
+.user a {
+    color: #019443;
+    font-family: 'Social Icons', sans-serif;
+    font-size: 46px;
+    line-height: .8;
+    vertical-align: middle;
+}
+
+.user a:hover {
+    color: #1162a4;
+    text-decoration: none;
+} */
+
+.sidebar-border {
+    margin: 0 auto;
+    max-width: 114.29em;
+    min-height: 64.28em;
+    /* border: 0.1875em solid black; */
+    /* overflow: scroll; */
+    -webkit-border-radius: 1.43em;
+    border-radius: 1.43em;
+    background-color:rgba(196, 194, 194, 0.6);
+    box-shadow: 0.36em 0.36em 0.36em #dcdbdb;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-1,
+.sidebar-2,
+.sidebar-3 {
+    width: 21.9%;
+    min-height: 57.14em;
+    background-color: rgba(255, 255, 255, .8);
+    border: 0.214em solid black;
+    border-color: rgb(135, 117, 74);
+    margin: 4em;
+    padding: 0.214em;
+    float: left;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+.sidebar-title {
+    font-family: 'Salsa', "Gill Sans";
+    text-align: center;
+    font-size: 1.3em;
+    border-bottom: 0.083em ridge #c8c8c8;
+    margin-top: 0.083em;
+    padding-bottom: 0.083em;
+    text-shadow: 0.0714em 0.0714em #aaa;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.copyright {
+    clear: left;
+}
